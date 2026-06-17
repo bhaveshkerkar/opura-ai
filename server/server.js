@@ -10,7 +10,14 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors({ origin: "http://localhost:5173" })); // Vite default port
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://opura-ai.vercel.app", // replace with your actual Vercel URL
+    ],
+  }),
+); // Vite default port
 app.use(express.json());
 
 // Routes

@@ -3,6 +3,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import ChatWindow from "./components/ChatWindow.jsx";
 import CartDrawer from "./components/CartDrawer.jsx";
 import CompareProducts from "./components/CompareProducts.jsx";
+import LiveBackground from "./components/LiveBackground.jsx";
 
 export default function App() {
   const [view, setView] = useState("chat");
@@ -10,14 +11,8 @@ export default function App() {
 
   return (
     <div className="relative flex h-screen text-white overflow-hidden">
-      {/* Live animated background */}
-      <div className="animated-bg">
-        <div className="orb orb-1" />
-        <div className="orb orb-2" />
-        <div className="orb orb-3" />
-        <div className="orb orb-4" />
-        <div className="grid-overlay" />
-      </div>
+      {/* Live canvas background */}
+      <LiveBackground />
 
       {/* Mobile overlay */}
       {sidebarOpen && (
@@ -48,7 +43,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* Main content */}
+      {/* Main */}
       <main className="relative z-10 flex-1 flex flex-col overflow-hidden min-w-0">
         {/* Mobile topbar */}
         <div className="md:hidden flex items-center gap-3 px-4 py-3 border-b border-white/5 glass shrink-0">

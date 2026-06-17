@@ -165,6 +165,17 @@ export default function ProductDetailModal({ product, onClose }) {
               >
                 {inCompare ? "✓ Added to Compare" : "Add to Compare List"}
               </button>
+
+              {product.productUrl && (
+                <a
+                  href={product.productUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full text-center bg-yellow-500 hover:bg-yellow-400 text-black text-sm font-semibold py-2.5 rounded-xl transition"
+                >
+                  Buy on Amazon ↗
+                </a>
+              )}
             </div>
           </div>
         </div>

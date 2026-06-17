@@ -90,6 +90,17 @@ export default function ProductCard({ product, onViewDetails }) {
           >
             {inCompare ? "✓ In Compare" : "Add to Compare"}
           </button>
+
+          {product.productUrl && (
+            <a
+              href={product.productUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full text-xs bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-1.5 rounded-lg transition text-center"
+            >
+              Buy on Amazon ↗
+            </a>
+          )}
         </div>
       </div>
     </div>

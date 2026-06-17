@@ -12,10 +12,7 @@
     "reviewCount": 1800,
     "colors": ["Black", "Yellow", "Blue"],
     "sizes": ["6 UK", "7 UK", "8 UK", "9 UK", "10 UK"],
-    "images": [
-      "https://picsum.photos/seed/airspain1/500/400",
-      "https://picsum.photos/seed/airspain2/500/400"
-    ],
+    "images": ["/products/air-spain.jpg", "/products/air-spain.jpg"],
     "tags": ["sneakers", "shoes", "footwear", "unisex", "casual"],
     "inStock": true
   },
@@ -32,10 +29,7 @@
     "reviewCount": 950,
     "colors": ["Grey", "Red"],
     "sizes": ["6 UK", "7 UK", "8 UK", "9 UK", "10 UK"],
-    "images": [
-      "https://picsum.photos/seed/trailrunner1/500/400",
-      "https://picsum.photos/seed/trailrunner2/500/400"
-    ],
+    "images": ["/products/trail-runner.jpg", "/products/trail-runner.jpg"],
     "tags": ["sneakers", "shoes", "running", "sports", "footwear"],
     "inStock": true
   },
@@ -52,10 +46,7 @@
     "reviewCount": 620,
     "colors": ["White", "Black"],
     "sizes": ["6 UK", "7 UK", "8 UK", "9 UK", "10 UK"],
-    "images": [
-      "https://picsum.photos/seed/urbanglide1/500/400",
-      "https://picsum.photos/seed/urbanglide2/500/400"
-    ],
+    "images": ["/products/urban-glide.jpg", "/products/urban-glide.jpg"],
     "tags": ["sneakers", "shoes", "casual", "footwear"],
     "inStock": true
   },
@@ -72,10 +63,7 @@
     "reviewCount": 1340,
     "colors": ["Navy", "White"],
     "sizes": ["6 UK", "7 UK", "8 UK", "9 UK", "10 UK", "11 UK"],
-    "images": [
-      "https://picsum.photos/seed/skywalk1/500/400",
-      "https://picsum.photos/seed/skywalk2/500/400"
-    ],
+    "images": ["/products/skywalk-pro.jpg", "/products/skywalk-pro.jpg"],
     "tags": ["sneakers", "shoes", "high-top", "footwear"],
     "inStock": true
   },
@@ -92,10 +80,7 @@
     "reviewCount": 2100,
     "colors": ["Black", "Silver"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/soundwave1/500/400",
-      "https://picsum.photos/seed/soundwave2/500/400"
-    ],
+    "images": ["/products/soundwave-200.jpg", "/products/soundwave-200.jpg"],
     "tags": ["headphones", "audio", "wireless", "electronics"],
     "inStock": true
   },
@@ -112,10 +97,7 @@
     "reviewCount": 540,
     "colors": ["Blue", "Black"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/basspro1/500/400",
-      "https://picsum.photos/seed/basspro2/500/400"
-    ],
+    "images": ["/products/basspro-lite.jpg", "/products/basspro-lite.jpg"],
     "tags": ["headphones", "audio", "electronics", "budget"],
     "inStock": true
   },
@@ -132,10 +114,7 @@
     "reviewCount": 890,
     "colors": ["Black"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/studiofi1/500/400",
-      "https://picsum.photos/seed/studiofi2/500/400"
-    ],
+    "images": ["/products/studiofi-max.jpg", "/products/studiofi-max.jpg"],
     "tags": ["headphones", "audio", "studio", "electronics", "premium"],
     "inStock": true
   },
@@ -152,10 +131,7 @@
     "reviewCount": 1670,
     "colors": ["Black", "Rose Gold"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/pulsefit1/500/400",
-      "https://picsum.photos/seed/pulsefit2/500/400"
-    ],
+    "images": ["/products/pulsefit-watch.jpg", "/products/pulsefit-watch.jpg"],
     "tags": ["smartwatch", "fitness", "wearable", "electronics"],
     "inStock": true
   },
@@ -172,10 +148,7 @@
     "reviewCount": 760,
     "colors": ["Silver", "Black"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/timesync1/500/400",
-      "https://picsum.photos/seed/timesync2/500/400"
-    ],
+    "images": ["/products/timesync-pro.jpg", "/products/timesync-pro.jpg"],
     "tags": ["smartwatch", "wearable", "electronics", "premium"],
     "inStock": true
   },
@@ -192,10 +165,7 @@
     "reviewCount": 410,
     "colors": ["Black", "Blue"],
     "sizes": [],
-    "images": [
-      "https://picsum.photos/seed/chronolite1/500/400",
-      "https://picsum.photos/seed/chronolite2/500/400"
-    ],
+    "images": ["/products/chronolite-se.jpg", "/products/chronolite-se.jpg"],
     "tags": ["smartwatch", "wearable", "electronics", "budget"],
     "inStock": true
   }

@@ -1,124 +1,17 @@
 @import "tailwindcss";
 
-/* Animated gradient background */
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes floatOrb1 {
-  0%,
-  100% {
-    transform: translate(0px, 0px) scale(1);
-  }
-  33% {
-    transform: translate(40px, -60px) scale(1.1);
-  }
-  66% {
-    transform: translate(-30px, 30px) scale(0.95);
-  }
-}
-
-@keyframes floatOrb2 {
-  0%,
-  100% {
-    transform: translate(0px, 0px) scale(1);
-  }
-  33% {
-    transform: translate(-50px, 40px) scale(1.05);
-  }
-  66% {
-    transform: translate(30px, -50px) scale(0.9);
-  }
-}
-
-@keyframes floatOrb3 {
-  0%,
-  100% {
-    transform: translate(0px, 0px) scale(1);
-  }
-  50% {
-    transform: translate(20px, 50px) scale(1.08);
-  }
-}
-
-.animated-bg {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  background: #050810;
-  overflow: hidden;
-}
-
-.animated-bg .orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.18;
-}
-
-.animated-bg .orb-1 {
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, #6366f1, #4f46e5);
-  top: -100px;
-  left: -100px;
-  animation: floatOrb1 12s ease-in-out infinite;
-}
-
-.animated-bg .orb-2 {
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, #8b5cf6, #7c3aed);
-  bottom: -80px;
-  right: -80px;
-  animation: floatOrb2 15s ease-in-out infinite;
-}
-
-.animated-bg .orb-3 {
-  width: 350px;
-  height: 350px;
-  background: radial-gradient(circle, #3b82f6, #2563eb);
-  top: 40%;
-  left: 40%;
-  animation: floatOrb3 18s ease-in-out infinite;
-}
-
-.animated-bg .orb-4 {
-  width: 280px;
-  height: 280px;
-  background: radial-gradient(circle, #a855f7, #9333ea);
-  top: 20%;
-  right: 20%;
-  animation: floatOrb1 20s ease-in-out infinite reverse;
-}
-
-/* Subtle grid overlay */
-.animated-bg .grid-overlay {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(99, 102, 241, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
-  background-size: 60px 60px;
-}
-
-/* Glass effect for sidebar and panels */
 .glass {
-  background: rgba(17, 19, 31, 0.75) !important;
+  background: rgba(13, 14, 26, 0.72) !important;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 .glass-light {
-  background: rgba(255, 255, 255, 0.03) !important;
+  background: rgba(13, 14, 26, 0.5) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+}
+
+body {
+  background: #080a14;
 }

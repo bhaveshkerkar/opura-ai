@@ -1,6 +1,6 @@
 # Opura AI — Shopping Assistant
 
-A chat-based AI shopping assistant built as a Full Stack Developer Intern take-home assignment by **Bhavesh Kerkar**.
+A chat-based AI shopping assistant
 
 🔗 **Live Demo:** https://opura-ai.vercel.app/
 📦 **GitHub:** https://github.com/bhaveshkerkar/opura-ai.git
